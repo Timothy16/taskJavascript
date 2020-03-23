@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <p id="app"></p>
+    <pre>Array is been displayed at the console  
+    </pre>
+    <p id="root"></p>
+    <script>
+        let myName = "Afolabi Timothy"
+        let course = [101,111,102,131,183,124,200,68,107,108,157,139,187]
+        document.getElementById("app").innerHTML = myName
+        for (let i= 0; i <= course.length; i++) {
+          if (course[i] % 2 == 0) {
+                console.log(course[i])
+          }
+         
+        }
+        
+    </script>
+</body>
+</html>
